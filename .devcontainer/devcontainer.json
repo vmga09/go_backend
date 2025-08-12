@@ -1,0 +1,20 @@
+{
+    "name": "Go API DevContainer",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "go.toolsManagement.autoUpdate": true,
+                "editor.formatOnSave": true
+            },
+            "extensions": [
+                "golang.go"
+            ]
+        }
+    },
+    "remoteUser": "root",
+    "forwardPorts": [8080]
+}
+
