@@ -17,6 +17,6 @@
     "remoteUser": "root",
     "forwardPorts": [
         8080
-    ],
-    "postStartCommand": "air -c .air.toml"
+    ]
+    //"postStartCommand": "air -c .air.toml"
 }

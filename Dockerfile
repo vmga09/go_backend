@@ -13,7 +13,7 @@ RUN go install github.com/air-verse/air@latest
 COPY . .
 
 # Inicializar módulo Go si no existe y descargar dependencias
-RUN [ ! -f go.mod ] && go mod init example.com/go-api || true
+RUN [ ! -f go.mod ] && go mod init github/vmga09/go-api || true
 RUN go mod tidy
 
 EXPOSE 8080
